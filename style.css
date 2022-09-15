@@ -72,8 +72,15 @@ button {
     width: fit-content;
     padding: 6px 24px;
     color:#f9faf8;
-    border: red;
     border-radius: 8px;
+}
+
+.information-wrapper {
+    background-color: white;
+    text-align: center;
+    color: #1f2937;
+    font-weight: bold;
+    padding: 36px;;
 }
 
 .information {
@@ -84,7 +91,7 @@ button {
     flex-wrap: wrap;
     gap:24px;
     padding: 36px;
-    min-height: 25%;
+    min-height: 300px;
     align-content: center;
 }
 
@@ -115,16 +122,42 @@ button {
     justify-content: center;
     align-content: center;
     gap:48px;
+    max-height: 300px;
 }
 
 #quote1 {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
-    color: #1f2937
+    font-weight:100px;
 }
 
 #thor {
-    font-size: 24px;
+    font-size: 20px;
     align-self: flex-end;
+    font-weight: bold;
 }
 
+.action-wrapper {
+    background-color: #f9faf8;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.call-action {
+    background-color: #3882f6;
+    padding:36px 72px;
+    display:flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin:48px;
+    gap:36px;
+}
+
+.call-action button {
+    border: #f9faf8;
+    border-style: solid;
+    border-radius: 8px;
+}
